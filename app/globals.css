@@ -10,3 +10,43 @@ input
   font-size: 1rem;
   transition: 1s;
 }
+
+/* html {
+  background: #000;
+} */
+
+.button-swiper {
+  padding: 20px;
+  /* background: #fff; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.swiper-button-prev, 
+.swiper-button-next,
+.swiper-pagination {
+  top: unset !important;
+  left: unset !important;
+  bottom: unset !important;
+  right: unset !important;
+  position: unset !important;
+  color: unset !important;
+}
+
+.swiper-button-prev, 
+.swiper-button-next {
+
+  background-color: #000000ad;
+  padding: .5rem 1.3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-prev:after, 
+.swiper-button-next:after {
+  color: #ffffff;
+  font-size: 17px !important;
+}
