@@ -16,17 +16,16 @@ const Icons = () => {
 
     getIcon();
 
-    // console.log(items)
     return (
-        <div className="flex w-4/6 mx-auto justify-between mt-10">
+        <div className="flex w-6/6 lg:w-4/6 mx-auto justify-between mt-10 flex-wrap px-4 lg:p-0">
             {
                 items ?
                     items.map((item, index) => (
-                        <div key={index} className="">
-                            <div className="overflow-hidden p-5">
+                        <div key={index} className="w-[19.6%] md:w-[10%] mb-2">
+                            <div className="overflow-hidden p-3 lg:p-5">
                                 <Image
                                     src={item.imageUrl}
-                                    alt="andrew's logo"
+                                    alt={item.title}
                                     layout="responsive" width={500} height={500} quality={80}
                                     priority
                                 />
