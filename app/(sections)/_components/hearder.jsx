@@ -27,15 +27,27 @@ const Header = () => {
     }
 
     getImage();
-    // console.log(items)
 
     return (
         <div className="relative w-[200%] ml-[-50%]">
         <Swiper
-            // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
             spaceBetween={20}
             slidesPerView={3}
+            breakpoints={{
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 3,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 50,
+                },
+              }}
             navigation={{
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
@@ -48,7 +60,6 @@ const Header = () => {
                 delay: 2500,
                 disableOnInteraction: false,
             }}
-            // scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
         >
@@ -56,12 +67,11 @@ const Header = () => {
                 items ?
                     items.map((item, index) => (
                         <SwiperSlide>
-                            <div key={index} className="h-[70dvh]">
+                            <div key={index} className="">
                                 <div className="overflow-hidden">
                                     <Image
                                         src={item.pcImageUrl}
                                         alt="andrew's logo"
-                                        // className="dark:invert"
                                         layout="responsive" width={500} height={500} quality={80}
                                         priority
                                     />
