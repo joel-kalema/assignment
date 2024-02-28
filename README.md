@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Assignment
+![Screenshot 2002-28 015359](https://github.com/joel-kalema/me_with-nextjs/assets/57408419/8c0e89cf-9701-4bcf-a449-d292c1cffaa0)
+
+> This is a introduction for the BLQ Developer test (Next.js).
+
+## Built With
+
+- Nextjs
+
+## Live Demo
+
+[Live Demo](https://comfy-rugelach-fb36cf.netlify.app/)
+
+
 
 ## Getting Started
 
-First, run the development server:
+To get started, just clone the repository and run `npm install && npm run dev`:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    git clone https://github.com/joel-kalema/me_with-nextjs.git
+    npm install
+    npm run dev
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You also need to enable `localhost:3000` in your CORS Origins settings!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Note: If you are running on Windows run install --noptional flag (i.e. `npm install --no-optional`) which will skip installing fsevents.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+If you wanted to run this site in production, you should install modules then build the site with `npm run build` and run it with `npm run dev`:
 
-To learn more about Next.js, take a look at the following resources:
+    npm install
+    npm run build
+    npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You should run `npm run build` again any time you make changes to the site.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Author
 
-## Deploy on Vercel
+- GitHub: [@joel-kalema](https://github.com/joel-kalema)
+- Twitter: [@JoelJklm](https://twitter.com/JoelJklm)
+- LinkedIn: [joel kalema](https://www.linkedin.com/in/joel-kalema-30518a230/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/joel-kalema/Mobile-version-skeleton/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
