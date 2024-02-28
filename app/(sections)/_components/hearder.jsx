@@ -85,7 +85,7 @@ const Header = () => {
                             </SwiperSlide>
                         ))
                         : (
-                            <div className="flex justify-between">
+                            <div className="flex justify-between animate-pulse">
                                 <div className="bg-[#ebebeb] w-[32%] h-[55vh] animate-pulse"></div>
                                 <div className="bg-[#ebebeb] w-[32%] h-[55vh] animate-pulse"></div>
                                 <div className="bg-[#ebebeb] w-[32%] h-[55vh] animate-pulse"></div>
